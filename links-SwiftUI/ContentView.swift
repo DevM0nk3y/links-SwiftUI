@@ -10,8 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         LinkView()
+        Divider()
+        
         LinkTextView()
+        Divider()
+        
         LinkBTWNStringView()
+        Divider()
+        
+        LinkMultiLineTextView()
     }
 }
 
